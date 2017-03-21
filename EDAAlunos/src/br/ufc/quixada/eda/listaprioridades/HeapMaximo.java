@@ -43,6 +43,9 @@ public class HeapMaximo {
 	}
 	
 	public void contruir(List<Integer> entrada){
+		for(int i = 1; i <= n; i++){
+			vetor[i] = entrada.get(i - 1);
+		}		
 		for(int i = n/2; i >= 1; i--){
 			this.descer(i);
 		}
