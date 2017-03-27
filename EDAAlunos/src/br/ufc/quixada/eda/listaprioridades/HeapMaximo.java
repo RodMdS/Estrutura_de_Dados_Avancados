@@ -14,7 +14,7 @@ public class HeapMaximo {
 	
 	public HeapMaximo(int Nmaximo){
 		nMaximo = Nmaximo;
-		vetor = new int[Nmaximo];
+		vetor = new int[Nmaximo + 1];
 	}
 	
 	private void subir(int i){
@@ -43,8 +43,8 @@ public class HeapMaximo {
 	}
 	
 	public void contruir(List<Integer> entrada){
-		for(int i = 1; i <= n; i++){
-			vetor[i] = entrada.get(i - 1);
+		for(int i = 0; i < entrada.size(); i++){
+			vetor[i + 1] = entrada.get(i);
 		}		
 		for(int i = n/2; i >= 1; i--){
 			this.descer(i);

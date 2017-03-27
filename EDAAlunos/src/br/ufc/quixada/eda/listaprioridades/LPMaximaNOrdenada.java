@@ -3,7 +3,7 @@ package br.ufc.quixada.eda.listaprioridades;
 import java.util.List;
 
 /**
- * Implementa a lista de prioridade usando vetor nï¿½o ordenado.
+ * Implementa a lista de prioridade usando vetor não ordenado.
  * @author fabio
  *
  */
