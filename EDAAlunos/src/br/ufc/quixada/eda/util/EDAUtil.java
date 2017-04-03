@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class EDAUtil {
 	/**
-	 * Ler o arquivo que contém as prioridades iniciais da lista de prioridades.
+	 * Ler o arquivo que contÃ©m as prioridades iniciais da lista de prioridades.
 	 * @param path
 	 * @return
 	 * @throws IOException
@@ -24,7 +24,7 @@ public class EDAUtil {
     }
     
     /**
-     * Ler as operações que serão realizadas na lista de prioridades após a sua criação.
+     * Ler as operaÃ§Ãµes que serÃ£o realizadas na lista de prioridades apÃ³s a sua criaÃ§Ã£o.
      * @param path
      * @return
      * @throws IOException

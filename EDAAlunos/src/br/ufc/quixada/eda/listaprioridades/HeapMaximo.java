@@ -31,7 +31,7 @@ public class HeapMaximo {
 	
 	private void descer(int i){
 		int j = 2 * i;
-		if(j <= n){
+		if(j < n){
 			if((j + 1 <= n) && (vetor[j + 1] > vetor[j])) j++;
 			if(vetor[j] > vetor[i]){
 				int aux = vetor[j];
@@ -79,11 +79,10 @@ public class HeapMaximo {
 		if(n >= 1){
 			for(int i = 1; i <= n; i++){
 				if(vetor[i] == prioridade){
+					vetor[i] = novaPrioridade;
 					if(prioridade < novaPrioridade){
-						vetor[i] = novaPrioridade;
 						this.subir(i);
 					} else if(prioridade > novaPrioridade){
-						vetor[i] = novaPrioridade;
 						this.descer(i);
 					}
 				}

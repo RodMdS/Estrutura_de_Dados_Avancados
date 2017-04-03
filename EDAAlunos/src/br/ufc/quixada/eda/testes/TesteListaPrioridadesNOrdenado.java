@@ -93,7 +93,7 @@ public class TesteListaPrioridadesNOrdenado {
 				System.out.println(arquivoOperacao + ": " + tempo);
 			}
 			for(int i = 0; i < 24; i++){
-				System.out.println(nomes[r] + " " + resultados[i]);
+				System.out.println(nomes[i] + " " + resultados[i]);
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
