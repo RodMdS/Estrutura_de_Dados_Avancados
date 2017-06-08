@@ -4,7 +4,7 @@ public class NodeAVL {
 	private NodeAVL left, right;
 	private int height, key;
 	
-	public NodeAVL (int key){
+	public NodeAVL(int key){
 		this.left = null;
 		this.right = null;
 		this.height = 1;
