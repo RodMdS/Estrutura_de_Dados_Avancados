@@ -22,7 +22,9 @@ public class TesteListaPrioridadesHeapMinimo {
 		
 		HeapMinimo prioridades = new HeapMinimo(vetor.size());
 		
-		prioridades.construir(vetor, vetor.size());
+		prioridades.construir(vetor);
+		
+		prioridades.mostrar();
 		
 		System.out.println(prioridades.getMinimaPrioridade());
 		
@@ -37,6 +39,8 @@ public class TesteListaPrioridadesHeapMinimo {
 		
 		prioridades.alterarPrioridade(4, 10);
 		System.out.println(prioridades.getMinimaPrioridade());
+		
+		prioridades.mostrar();
 	}
 
 }
